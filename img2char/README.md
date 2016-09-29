@@ -1,11 +1,5 @@
 # img2char：将图片转为字符串图画
 ---
-## 效果展示：
-原图：
-![原图](https://github.com/StephinChou/pythonImage/blob/master/img2char/flower.JPG)
-
-转换后的图：
-![效果图](https://github.com/StephinChou/pythonImage/blob/master/img2char/result.jpg)
 
 ## 原理：
 > * 将简单的表情图取灰度图像二值化，然后不同值用不同的字符串代替该像素即可
@@ -16,3 +10,15 @@
 > 举例字符数组的排列比较有讲究，换一个顺序，图片的展示效果完全不一样，这个大家可以自行测试。
 
 >以我个人的使用经验来看，字符之间的渐变应该比较小，但是两端的区别较大，这样的设置显示效果理论上应该比较好,举例:`mn`这两个字符相邻比较合适，空格` `和`$@#`之类的字符应该隔得比较远，简单来说整个样例字符的分布理想状态应该类似于一条由明到暗的渐变带一样
+
+
+## 效果展示：
+原图：
+![原图](https://github.com/StephinChou/pythonImage/blob/master/img2char/flower.JPG)
+
+转换后的图：
+二值：
+![二值效果图](https://github.com/StephinChou/pythonImage/blob/master/img2char/2.jpg)
+
+四值：
+![四值效果图](https://github.com/StephinChou/pythonImage/blob/master/img2char/4.jpg)

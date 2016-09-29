@@ -9,11 +9,11 @@
 
 from PIL import Image
 
-chars = list("A-%,+1n&M-B/\?<8&WM#$_+~*|(){}[]>i!lI;:,\"^`'. ")
+chars = list("A-% ,+1n&M-B/\?<8&WM#$_+~*|(){}[]>i!lI;:,\"^`'. ")
 
 # 图像整体使用多少个字符来表示？ 必须为2的指数倍2,4,6,8,16,32最大
 # 对于只想看轮廓的图,2或4显示效果较好，对稍微追求细节的图稍微弄大一点
-num = 2;
+num = 4;
 chars = chars[:num]
 # isThumb = True
 isThumb = False
